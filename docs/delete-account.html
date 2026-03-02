@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsikoPlanner - Hesap Silme / Delete Account</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #1a1a2e;
+            background: #f8f9fa;
+        }
+        .header {
+            background: #1a1a2e;
+            color: #fff;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .header h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+        .header p { opacity: 0.8; font-size: 0.95rem; }
+        .lang-switch {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .lang-switch a {
+            color: #fff;
+            background: rgba(255,255,255,0.15);
+            padding: 0.4rem 1.2rem;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+        .lang-switch a:hover, .lang-switch a.active {
+            background: rgba(255,255,255,0.3);
+        }
+        .container {
+            max-width: 700px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        .section { display: none; }
+        .section.active { display: block; }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 2rem;
+            margin: 1.5rem 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        h2 {
+            font-size: 1.3rem;
+            color: #1a1a2e;
+            margin-bottom: 1rem;
+        }
+        h3 {
+            font-size: 1.1rem;
+            color: #333;
+            margin: 1.2rem 0 0.5rem;
+        }
+        p { margin: 0.5rem 0; color: #444; }
+        ol, ul {
+            margin: 0.5rem 0 1rem 1.5rem;
+            color: #444;
+        }
+        li { margin: 0.4rem 0; }
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1rem 1.2rem;
+            border-radius: 0 8px 8px 0;
+            margin: 1rem 0;
+        }
+        .warning strong { color: #856404; }
+        .info {
+            background: #d1ecf1;
+            border-left: 4px solid #0dcaf0;
+            padding: 1rem 1.2rem;
+            border-radius: 0 8px 8px 0;
+            margin: 1rem 0;
+        }
+        .info strong { color: #0c5460; }
+        a { color: #4a69bd; }
+        .footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: #888;
+            font-size: 0.85rem;
+            border-top: 1px solid #e9ecef;
+            margin-top: 3rem;
+        }
+        @media (max-width: 600px) {
+            .header h1 { font-size: 1.4rem; }
+            .container { padding: 0 1rem; }
+            .card { padding: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>PsikoPlanner</h1>
+        <p>Hesap Silme / Delete Account</p>
+        <div class="lang-switch">
+            <a href="#tr" class="active" onclick="switchLang('tr')">Turkce</a>
+            <a href="#en" onclick="switchLang('en')">English</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- TURKISH -->
+        <div id="tr" class="section active">
+            <div class="card">
+                <h2>Hesabinizi Nasil Silebilirsiniz?</h2>
+
+                <h3>Yontem 1: Uygulama Icinden (Tavsiye Edilen)</h3>
+                <ol>
+                    <li>PsikoPlanner uygulamasini acin</li>
+                    <li><strong>Ayarlar</strong> sekmesine gidin</li>
+                    <li><strong>"Hesabimi Sil"</strong> secenegine tiklatin</li>
+                    <li>Onay ekraninda <strong>"Evet, hesabimi sil"</strong> secenegini onaylayin</li>
+                </ol>
+
+                <h3>Yontem 2: E-posta ile</h3>
+                <p>Asagidaki adrese hesabinizla iliskili e-posta adresinizden bir silme talebi gonderin:</p>
+                <p><strong><a href="mailto:psikoplanner@gmail.com?subject=Hesap%20Silme%20Talebi&body=Merhaba%2C%0A%0AHesabimin%20silinmesini%20talep%20ediyorum.%0A%0AHesap%20e-posta%20adresim%3A%20%5Be-posta%20adresiniz%5D%0A%0ATesekkurler.">psikoplanner@gmail.com</a></strong></p>
+                <p>Talebiniz en gec 7 is gunu icinde islenecektir.</p>
+            </div>
+
+            <div class="card">
+                <h2>Hesap Silindiginde Ne Olur?</h2>
+
+                <div class="warning">
+                    <strong>Dikkat:</strong> Hesap silme islemi geri alinamaz.
+                </div>
+
+                <h3>Silinen Veriler:</h3>
+                <ul>
+                    <li><strong>Kimlik dogrulama verileri:</strong> E-posta ve oturum bilgileri Supabase sunucularindan kalici olarak silinir</li>
+                    <li><strong>Cihaz uzerindeki veriler:</strong> Uygulamayi kaldirdiginizda tum yerel veriler (danisan bilgileri, seans notlari, anamnez kayitlari) otomatik olarak silinir</li>
+                </ul>
+
+                <div class="info">
+                    <strong>Bilgi:</strong> Danisan verileriniz (kisisel bilgiler, saglik verileri, seans notlari) zaten yalnizca cihazinizda saklanmaktadir ve hicbir sunucuya gonderilmemistir. Uygulamayi silmek bu verileri kalici olarak kaldirır.
+                </div>
+
+                <h3>Saklama Suresi:</h3>
+                <ul>
+                    <li>Kimlik dogrulama verileri: Silme talebinden itibaren en gec 30 gun icinde kalici olarak silinir</li>
+                    <li>Yerel veriler: Uygulama kaldirildigi anda aninda silinir</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Iletisim</h2>
+                <p>Sorulariniz icin: <a href="mailto:psikoplanner@gmail.com">psikoplanner@gmail.com</a></p>
+            </div>
+        </div>
+
+        <!-- ENGLISH -->
+        <div id="en" class="section">
+            <div class="card">
+                <h2>How to Delete Your Account</h2>
+
+                <h3>Method 1: From the App (Recommended)</h3>
+                <ol>
+                    <li>Open the PsikoPlanner app</li>
+                    <li>Go to the <strong>Settings</strong> tab</li>
+                    <li>Tap <strong>"Delete My Account"</strong></li>
+                    <li>Confirm by tapping <strong>"Yes, delete my account"</strong> on the confirmation screen</li>
+                </ol>
+
+                <h3>Method 2: Via Email</h3>
+                <p>Send a deletion request from the email address associated with your account to:</p>
+                <p><strong><a href="mailto:psikoplanner@gmail.com?subject=Account%20Deletion%20Request&body=Hello%2C%0A%0AI%20would%20like%20to%20request%20the%20deletion%20of%20my%20account.%0A%0AMy%20account%20email%3A%20%5Byour%20email%5D%0A%0AThank%20you.">psikoplanner@gmail.com</a></strong></p>
+                <p>Your request will be processed within 7 business days.</p>
+            </div>
+
+            <div class="card">
+                <h2>What Happens When Your Account Is Deleted?</h2>
+
+                <div class="warning">
+                    <strong>Warning:</strong> Account deletion is permanent and cannot be undone.
+                </div>
+
+                <h3>Data That Will Be Deleted:</h3>
+                <ul>
+                    <li><strong>Authentication data:</strong> Your email and session information will be permanently deleted from Supabase servers</li>
+                    <li><strong>On-device data:</strong> All local data (client information, session notes, anamnesis records) is automatically deleted when you uninstall the app</li>
+                </ul>
+
+                <div class="info">
+                    <strong>Note:</strong> Your client data (personal information, health records, session notes) is stored exclusively on your device and has never been sent to any server. Uninstalling the app permanently removes this data.
+                </div>
+
+                <h3>Retention Period:</h3>
+                <ul>
+                    <li>Authentication data: Permanently deleted within 30 days of the deletion request</li>
+                    <li>Local data: Deleted immediately when the app is uninstalled</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Contact</h2>
+                <p>For questions: <a href="mailto:psikoplanner@gmail.com">psikoplanner@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 PsikoPlanner. Tum haklari saklidir / All rights reserved.</p>
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.section').forEach(function(s) { s.classList.remove('active'); });
+            document.getElementById(lang).classList.add('active');
+            document.querySelectorAll('.lang-switch a').forEach(function(a) { a.classList.remove('active'); });
+            document.querySelector('.lang-switch a[href="#' + lang + '"]').classList.add('active');
+        }
+        if (window.location.hash === '#en') switchLang('en');
+    </script>
+</body>
+</html>
