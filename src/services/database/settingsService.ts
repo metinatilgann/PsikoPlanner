@@ -1,0 +1,38 @@
+import type { SQLiteDatabase } from 'expo-sqlite';
+
+export async function getSetting(
+  db: SQLiteDatabase,
+  key: string
+): Promise<string | null> {
+  const row = await db.getFirstAsync<{ value: string }>(
+    'SELECT value FROM settings WHERE key = ?',
+    key
+  );
+  return row?.value || null;
+}
+
+export async function setSetting(
+  db: SQLiteDatabase,
+  key: string,
+  value: string
+): Promise<void> {
+  await db.runAsync(
+    `INSERT INTO settings (key, value, updated_at)
+    VALUES (?, ?, datetime('now'))
+    ON CONFLICT(key) DO UPDATE SET value = ?, updated_at = datetime('now')`,
+    key, value, value
+  );
+}
+
+export async function getAllSettings(
+  db: SQLiteDatabase
+): Promise<Record<string, string>> {
+  const rows = await db.getAllAsync<{ key: string; value: string }>(
+    'SELECT key, value FROM settings'
+  );
+  const result: Record<string, string> = {};
+  for (const row of rows) {
+    result[row.key] = row.value;
+  }
+  return result;
+}

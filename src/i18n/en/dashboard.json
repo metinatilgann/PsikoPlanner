@@ -1,0 +1,21 @@
+{
+  "title": "Dashboard",
+  "greeting": "Hello",
+  "todaySessions": "Today's Sessions",
+  "weeklySessions": "This Week",
+  "monthlySessions": "This Month",
+  "activeClients": "Active Clients",
+  "upcomingSessions": "Upcoming Sessions",
+  "viewAll": "View All",
+  "revenue": "Revenue",
+  "monthlyRevenue": "Monthly Revenue",
+  "totalRevenue": "Total Revenue",
+  "paidAmount": "Paid",
+  "unpaidAmount": "Unpaid",
+  "quickActions": "Quick Actions",
+  "addClient": "Add Client",
+  "addSession": "Add Session",
+  "noUpcoming": "No upcoming sessions",
+  "sessionChart": "Session Chart",
+  "monthlyOverview": "Monthly Overview"
+}

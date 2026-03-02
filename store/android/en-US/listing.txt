@@ -1,0 +1,58 @@
+# Google Play Store - English Listing
+
+## App Name (30 characters)
+PsikoPlanner
+
+## Short Description (80 characters)
+Professional digital planner for therapists. Client, session & anamnesis management.
+
+## Full Description (4000 characters)
+PsikoPlanner is a professional practice management application designed specifically for therapists and psychological counselors. Securely manage your clients, sessions, and anamnesis records.
+
+CLIENT MANAGEMENT
+- 5-step detailed client registration wizard
+- Personal information, demographics, health summary, family info, and therapy history
+- Client search and filtering
+- Archive and restore functionality
+
+ANAMNESIS (INTAKE FORM)
+- Family history
+- Medical history
+- Psychological history
+- Medication tracking
+- Presenting problem and therapy goals
+
+SESSION MANAGEMENT
+- Calendar view for session scheduling
+- SOAP format session notes
+- Session evaluations and risk tracking
+- Individual, couple, family, and group session types
+
+SECURITY & PRIVACY
+- All client data stored locally on your device
+- No health data sent to cloud servers
+- Biometric authentication support
+- Auto-lock feature
+
+STATISTICS & TRACKING
+- Daily session summary
+- Active client count
+- Weekly and monthly revenue tracking
+- Upcoming session notifications
+
+ADDITIONAL FEATURES
+- Turkish and English language support
+- Light and dark theme options
+- Backup and restore
+- Professional and user-friendly interface
+
+PsikoPlanner helps you manage your professional practice more efficiently. All your data is securely stored on your device.
+
+## Category
+Medical
+
+## Content Rating
+Everyone
+
+## Privacy Policy URL
+[PRIVACY_POLICY_URL]

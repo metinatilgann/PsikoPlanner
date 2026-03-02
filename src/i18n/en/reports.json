@@ -1,0 +1,18 @@
+{
+  "title": "Reports",
+  "selectReport": "Select Report Type",
+  "sessionReport": "Session Report",
+  "clientSummary": "Client Summary",
+  "anamnesisReport": "Anamnesis Report",
+  "progressReport": "Progress Report",
+  "dateRange": "Date Range",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "generate": "Generate Report",
+  "preview": "Preview",
+  "share": "Share",
+  "print": "Print",
+  "saveToDevice": "Save to Device",
+  "generating": "Generating report...",
+  "noDataForReport": "No data found for the selected period"
+}

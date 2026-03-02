@@ -39,3 +39,15 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# EAS / Secrets
+google-service-account-key.json
+*.keystore
+
+# Environment files with secrets
+.env
+.env.local
+.env.production
+
+# Claude Code
+.claude/

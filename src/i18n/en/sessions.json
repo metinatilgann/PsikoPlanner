@@ -1,0 +1,75 @@
+{
+  "title": "Sessions",
+  "addSession": "Add Session",
+  "editSession": "Edit Session",
+  "sessionDetail": "Session Details",
+  "sessionNumber": "Session No",
+  "sessionDate": "Session Date",
+  "startTime": "Start Time",
+  "endTime": "End Time",
+  "duration": "Duration",
+  "minutes": "minutes",
+  "sessionType": "Session Type",
+  "status": "Status",
+  "fee": "Fee",
+  "paid": "Paid",
+  "unpaid": "Unpaid",
+  "paymentMethod": "Payment Method",
+  "location": "Location",
+  "selectClient": "Select Client",
+  "notes": "Notes",
+  "evaluation": "Evaluation",
+  "summary": "Summary",
+  "noSessions": "No sessions added yet",
+  "cancelSession": "Cancel Session",
+  "cancellationReason": "Cancellation Reason",
+  "types": {
+    "individual": "Individual",
+    "couple": "Couple",
+    "family": "Family",
+    "group": "Group",
+    "online": "Online",
+    "assessment": "Assessment"
+  },
+  "statuses": {
+    "planned": "Planned",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "no_show": "No Show"
+  },
+  "paymentMethods": {
+    "cash": "Cash",
+    "credit_card": "Credit Card",
+    "bank_transfer": "Bank Transfer",
+    "insurance": "Insurance",
+    "other": "Other"
+  },
+  "noteTypes": {
+    "general": "General",
+    "subjective": "Subjective",
+    "objective": "Objective",
+    "assessment": "Assessment",
+    "plan": "Plan"
+  },
+  "evaluationFields": {
+    "clientMood": "Client Mood",
+    "clientEngagement": "Client Engagement",
+    "therapeuticAlliance": "Therapeutic Alliance",
+    "progressRating": "Progress",
+    "riskLevel": "Risk Level",
+    "techniquesUsed": "Techniques Used",
+    "homeworkAssigned": "Homework Assigned",
+    "homeworkCompleted": "Homework Completed",
+    "nextSessionFocus": "Next Session Focus",
+    "therapistObservations": "Therapist Observations"
+  },
+  "riskLevels": {
+    "none": "None",
+    "low": "Low",
+    "moderate": "Moderate",
+    "high": "High",
+    "critical": "Critical"
+  },
+  "reminder": "Reminder",
+  "setReminder": "Set Reminder"
+}

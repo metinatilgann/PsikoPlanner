@@ -66,4 +66,17 @@ export const NOTE_TYPES = [
 
 export const AUTO_LOCK_OPTIONS = [0, 60, 300, 900] as const; // seconds: immediately, 1min, 5min, 15min
 
+export const EDUCATION_LEVELS = [
+  'none', 'primary', 'secondary', 'high_school',
+  'associate', 'bachelor', 'master', 'doctorate',
+] as const;
+
+export const LIVING_WITH_OPTIONS = [
+  'alone', 'spouse', 'family', 'roommate', 'other',
+] as const;
+
+export const WIZARD_STEPS = [
+  'personalInfo', 'demographics', 'healthSummary', 'familySummary', 'therapyReferral',
+] as const;
+
 export const REMINDER_OPTIONS = [15, 30, 60, 120, 1440] as const; // minutes

@@ -1,0 +1,18 @@
+{
+  "title": "Raporlar",
+  "selectReport": "Rapor Türü Seçin",
+  "sessionReport": "Seans Raporu",
+  "clientSummary": "Danışan Özeti",
+  "anamnesisReport": "Anamnez Raporu",
+  "progressReport": "İlerleme Raporu",
+  "dateRange": "Tarih Aralığı",
+  "startDate": "Başlangıç",
+  "endDate": "Bitiş",
+  "generate": "Rapor Oluştur",
+  "preview": "Önizleme",
+  "share": "Paylaş",
+  "print": "Yazdır",
+  "saveToDevice": "Cihaza Kaydet",
+  "generating": "Rapor oluşturuluyor...",
+  "noDataForReport": "Seçilen dönem için veri bulunamadı"
+}

@@ -1,0 +1,58 @@
+# Google Play Store - Turkce Listeleme
+
+## Uygulama Adi (30 karakter)
+PsikoPlanner
+
+## Kisa Aciklama (80 karakter)
+Terapistler icin profesyonel dijital ajanda. Danisan, seans ve anamnez yonetimi.
+
+## Tam Aciklama (4000 karakter)
+PsikoPlanner, terapistler ve psikolojik danismanlar icin ozel olarak tasarlanmis profesyonel bir pratik yonetim uygulamasidir. Danisanlarinizi, seanslarinizi ve anamnez bilgilerinizi guvenle yonetin.
+
+DANISAN YONETIMI
+- 5 adimli detayli danisan kayit sihirbazi
+- Kisisel bilgiler, demografik veriler, saglik ozeti, aile bilgileri ve terapi gecmisi
+- Danisan arama ve filtreleme
+- Arsivleme ve geri yukleme
+
+ANAMNEZ (ALIS FORMU)
+- Aile oykusu
+- Tibbi gecmis
+- Psikolojik gecmis
+- Ilac takibi
+- Basvuru nedeni ve hedefleri
+
+SEANS YONETIMI
+- Takvim gorunumu ile seans planlama
+- SOAP formati ile seans notlari
+- Seans degerlendirmeleri ve risk takibi
+- Bireysel, cift, aile ve grup seans turleri
+
+GUVENLIK VE GIZLILIK
+- Tum danisan verileri cihazinizda yerel olarak saklanir
+- Hicbir saglik verisi bulut sunucularina gonderilmez
+- Biyometrik kimlik dogrulama destegi
+- Otomatik kilitleme ozelligi
+
+ISTATISTIKLER VE TAKIP
+- Gunluk seans ozeti
+- Aktif danisan sayisi
+- Haftalik ve aylik gelir takibi
+- Yaklasan seans bildirimleri
+
+EK OZELLIKLER
+- Turkce ve Ingilizce dil destegi
+- Acik ve koyu tema secenekleri
+- Yedekleme ve geri yukleme
+- Profesyonel ve kullanici dostu arayuz
+
+PsikoPlanner, mesleki pratiginizi daha verimli yonetmenize yardimci olur. Tum verileriniz cihazinizda guvenle saklanir.
+
+## Kategori
+Medical
+
+## Icerik Derecelendirmesi
+Everyone (Herkes)
+
+## Gizlilik Politikasi URL
+[GIZLILIK_POLITIKASI_URL]

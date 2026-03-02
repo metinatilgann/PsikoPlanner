@@ -1,0 +1,51 @@
+# Apple App Store Metadata
+
+## App Name (30 characters)
+PsikoPlanner
+
+## Subtitle (30 characters)
+Terapi Pratik Yonetimi
+
+## Promotional Text (170 characters - can update without review)
+Terapistler icin tasarlanmis profesyonel dijital ajanda. Danisanlarinizi, seanslarinizi ve anamnez bilgilerinizi guvenle yonetin.
+
+## Keywords (100 characters, comma-separated)
+terapi,terapist,psikolog,danisan,seans,anamnez,psikoloji,ajanda,klinik,saglik
+
+## Description
+(Ayni Google Play tam aciklamasi kullanilacak - store/android/tr-TR/listing.txt)
+
+## Primary Category
+Medical
+
+## Secondary Category
+Productivity
+
+## Age Rating
+4+
+
+## Review Notes
+This is a therapist practice management app designed for licensed mental health professionals.
+All client health data (anamnesis, session notes, evaluations) is stored locally on-device using SQLite.
+No client data is transmitted to any server. The only external service is Supabase for email/password authentication.
+The app does NOT use HealthKit.
+
+Demo Account:
+Email: [DEMO_EMAIL]
+Password: [DEMO_PASSWORD]
+
+## Privacy Policy URL
+[PRIVACY_POLICY_URL]
+
+## App Privacy Labels
+| Data Type                  | Collected | Linked to User | Used for Tracking |
+|---------------------------|-----------|----------------|-------------------|
+| Email Address             | Yes       | Yes            | No                |
+| Name                      | Yes       | No (local)     | No                |
+| Phone Number              | Yes       | No (local)     | No                |
+| Physical Address          | Yes       | No (local)     | No                |
+| Health & Fitness          | Yes       | No (local)     | No                |
+| Sensitive Info            | Yes       | No (local)     | No                |
+| Payment Info              | No        | No             | No                |
+
+Data Usage Purpose: App Functionality

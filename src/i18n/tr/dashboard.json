@@ -1,0 +1,21 @@
+{
+  "title": "Ana Sayfa",
+  "greeting": "Merhaba",
+  "todaySessions": "Bugünkü Seanslar",
+  "weeklySessions": "Bu Hafta",
+  "monthlySessions": "Bu Ay",
+  "activeClients": "Aktif Danışanlar",
+  "upcomingSessions": "Yaklaşan Seanslar",
+  "viewAll": "Tümünü Gör",
+  "revenue": "Gelir",
+  "monthlyRevenue": "Aylık Gelir",
+  "totalRevenue": "Toplam Gelir",
+  "paidAmount": "Ödenen",
+  "unpaidAmount": "Ödenmemiş",
+  "quickActions": "Hızlı İşlemler",
+  "addClient": "Danışan Ekle",
+  "addSession": "Seans Ekle",
+  "noUpcoming": "Yaklaşan seans yok",
+  "sessionChart": "Seans Grafiği",
+  "monthlyOverview": "Aylık Genel Bakış"
+}

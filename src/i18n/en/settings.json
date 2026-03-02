@@ -1,0 +1,91 @@
+{
+  "title": "Settings",
+  "profile": "Profile",
+  "therapistProfile": "Therapist Profile",
+  "name": "Full Name",
+  "professionalTitle": "Title",
+  "licenseNumber": "License Number",
+  "clinicName": "Clinic Name",
+  "clinicAddress": "Clinic Address",
+  "clinicPhone": "Clinic Phone",
+  "security": "Security",
+  "biometricAuth": "Biometric Login",
+  "biometricDescription": "Sign in with fingerprint or face recognition",
+  "changePassword": "Change Password",
+  "autoLock": "Auto Lock",
+  "autoLockOptions": {
+    "0": "Immediately",
+    "60": "1 Minute",
+    "300": "5 Minutes",
+    "900": "15 Minutes"
+  },
+  "notifications": "Notifications",
+  "sessionReminders": "Session Reminders",
+  "defaultReminder": "Default Reminder",
+  "reminderOptions": {
+    "15": "15 Minutes Before",
+    "30": "30 Minutes Before",
+    "60": "1 Hour Before",
+    "120": "2 Hours Before",
+    "1440": "1 Day Before"
+  },
+  "dailySummary": "Daily Summary Notification",
+  "dailySummaryTime": "Summary Time",
+  "backup": "Backup & Restore",
+  "createBackup": "Create Backup",
+  "restoreBackup": "Restore Backup",
+  "lastBackup": "Last Backup",
+  "backupPassword": "Backup Password",
+  "backupPasswordHint": "Enter a password to encrypt the backup",
+  "restoreWarning": "Restoring will overwrite all existing data. Do you want to continue?",
+  "backupSuccess": "Backup successful",
+  "restoreSuccess": "Restore successful",
+  "noBackups": "No backups yet",
+  "language": "Language",
+  "turkish": "Türkçe",
+  "english": "English",
+  "theme": "Theme",
+  "lightTheme": "Light Theme",
+  "darkTheme": "Dark Theme",
+  "systemTheme": "System Theme",
+  "about": "About",
+  "version": "Version",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfUse": "Terms of Use",
+  "rateApp": "Rate App",
+  "account": "Account",
+  "data": "Data Management",
+  "appearance": "Appearance",
+  "privacyPolicyTitle": "Privacy Policy",
+  "privacyLastUpdated": "Last Updated: February 26, 2026",
+  "privacyContent": [
+    {
+      "title": "1. Introduction",
+      "body": "PsikoPlanner is a professional practice management application designed for therapists. This privacy policy describes the data the application collects, stores, and processes.\n\nDeveloper: PsikoPlanner\nContact: psikoplanner@gmail.com"
+    },
+    {
+      "title": "2. Data We Collect",
+      "body": "Account Data: Email address (for login and registration)\n\nClient Personal Data: Name, phone, email, date of birth, gender, national ID, nationality, occupation, marital status, education level, address, emergency contact information\n\nHealth Data (Sensitive): Chronic illness information, current medications, allergy information, medical history\n\nPsychological Data (Sensitive): Previous diagnoses and treatments, trauma history, family psychiatric history, therapy expectations\n\nSession Data: Session dates, types, notes (SOAP format), evaluations\n\nFinancial Data: Session fees, payment status (credit card/bank info is NOT collected)"
+    },
+    {
+      "title": "3. Data Storage",
+      "body": "Client data (health, psychological, session, personal): Stored entirely on your device locally using SQLite database. This data is never sent to any server and never leaves your device.\n\nAuthentication data: Email and session tokens are processed through Supabase.\n\nSensitive credentials: Stored in the device's secure enclave (Secure Store)."
+    },
+    {
+      "title": "4. Data Sharing",
+      "body": "We do not share your client data with any third party. The application contains no advertising SDKs, analytics tools, or tracking technologies. Health and therapy data never leaves your device. The only external connection is Supabase for authentication (email/password only)."
+    },
+    {
+      "title": "5. User Rights (KVKK / GDPR)",
+      "body": "Under the Turkish Personal Data Protection Law (KVKK) and GDPR, you have the following rights:\n\n• Right of access: You may request access to your data.\n• Right to rectification: You may request correction of inaccurate data.\n• Right to erasure: You may request deletion of all your data.\n• Right to portability: You may export your data using the backup feature.\n• Right to object: You may object to data processing.\n• Right to withdraw consent: You may withdraw your consent at any time.\n\nTo exercise these rights, contact psikoplanner@gmail.com."
+    },
+    {
+      "title": "6. Security Measures",
+      "body": "• Local data storage (no cloud synchronization)\n• Biometric authentication (fingerprint / face recognition)\n• Auto-lock feature\n• Secure credential storage (Secure Store)\n• HTTPS for all network communications"
+    },
+    {
+      "title": "7. Contact",
+      "body": "For questions: psikoplanner@gmail.com"
+    }
+  ]
+}

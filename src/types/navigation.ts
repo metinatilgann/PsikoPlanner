@@ -51,4 +51,5 @@ export type SettingsStackParamList = {
   Language: undefined;
   Theme: undefined;
   About: undefined;
+  PrivacyPolicy: undefined;
 };

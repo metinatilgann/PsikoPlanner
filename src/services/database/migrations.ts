@@ -206,6 +206,46 @@ const MIGRATIONS: Migration[] = [
       `);
     },
   },
+  {
+    version: 2,
+    up: async (db: SQLiteDatabase) => {
+      await db.execAsync(`
+        ALTER TABLE clients ADD COLUMN national_id TEXT;
+        ALTER TABLE clients ADD COLUMN nationality TEXT;
+        ALTER TABLE clients ADD COLUMN education_level TEXT CHECK(education_level IN ('none','primary','secondary','high_school','associate','bachelor','master','doctorate'));
+        ALTER TABLE clients ADD COLUMN number_of_children INTEGER;
+        ALTER TABLE clients ADD COLUMN address TEXT;
+        ALTER TABLE clients ADD COLUMN city TEXT;
+        ALTER TABLE clients ADD COLUMN living_with TEXT CHECK(living_with IN ('alone','spouse','family','roommate','other'));
+        ALTER TABLE clients ADD COLUMN insurance_info TEXT;
+        ALTER TABLE clients ADD COLUMN referral_detail TEXT;
+        ALTER TABLE clients ADD COLUMN emergency_contact_relation TEXT;
+      `);
+    },
+  },
+  {
+    version: 3,
+    up: async (db: SQLiteDatabase) => {
+      await db.execAsync(`
+        ALTER TABLE clients ADD COLUMN has_chronic_illness INTEGER DEFAULT 0;
+        ALTER TABLE clients ADD COLUMN chronic_illness_summary TEXT;
+        ALTER TABLE clients ADD COLUMN current_medications TEXT;
+        ALTER TABLE clients ADD COLUMN has_allergies INTEGER DEFAULT 0;
+        ALTER TABLE clients ADD COLUMN allergy_summary TEXT;
+        ALTER TABLE clients ADD COLUMN number_of_siblings INTEGER;
+        ALTER TABLE clients ADD COLUMN birth_order INTEGER;
+        ALTER TABLE clients ADD COLUMN mother_alive INTEGER;
+        ALTER TABLE clients ADD COLUMN father_alive INTEGER;
+        ALTER TABLE clients ADD COLUMN parent_marital_status TEXT;
+        ALTER TABLE clients ADD COLUMN family_psychiatric_note TEXT;
+        ALTER TABLE clients ADD COLUMN has_previous_therapy INTEGER DEFAULT 0;
+        ALTER TABLE clients ADD COLUMN previous_therapy_summary TEXT;
+        ALTER TABLE clients ADD COLUMN has_psychiatric_medication INTEGER DEFAULT 0;
+        ALTER TABLE clients ADD COLUMN psychiatric_medication_note TEXT;
+        ALTER TABLE clients ADD COLUMN therapy_expectations TEXT;
+      `);
+    },
+  },
 ];
 
 export async function runMigrations(db: SQLiteDatabase): Promise<void> {

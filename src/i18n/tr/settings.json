@@ -1,0 +1,91 @@
+{
+  "title": "Ayarlar",
+  "profile": "Profil",
+  "therapistProfile": "Terapist Profili",
+  "name": "Ad Soyad",
+  "professionalTitle": "Unvan",
+  "licenseNumber": "Lisans Numarası",
+  "clinicName": "Klinik Adı",
+  "clinicAddress": "Klinik Adresi",
+  "clinicPhone": "Klinik Telefonu",
+  "security": "Güvenlik",
+  "biometricAuth": "Biyometrik Giriş",
+  "biometricDescription": "Parmak izi veya yüz tanıma ile giriş yapın",
+  "changePassword": "Şifre Değiştir",
+  "autoLock": "Otomatik Kilitleme",
+  "autoLockOptions": {
+    "0": "Hemen",
+    "60": "1 Dakika",
+    "300": "5 Dakika",
+    "900": "15 Dakika"
+  },
+  "notifications": "Bildirimler",
+  "sessionReminders": "Seans Hatırlatmaları",
+  "defaultReminder": "Varsayılan Hatırlatma",
+  "reminderOptions": {
+    "15": "15 Dakika Önce",
+    "30": "30 Dakika Önce",
+    "60": "1 Saat Önce",
+    "120": "2 Saat Önce",
+    "1440": "1 Gün Önce"
+  },
+  "dailySummary": "Günlük Özet Bildirimi",
+  "dailySummaryTime": "Özet Saati",
+  "backup": "Yedekleme ve Geri Yükleme",
+  "createBackup": "Yedek Oluştur",
+  "restoreBackup": "Yedeği Geri Yükle",
+  "lastBackup": "Son Yedekleme",
+  "backupPassword": "Yedek Şifresi",
+  "backupPasswordHint": "Yedeği şifrelemek için bir şifre girin",
+  "restoreWarning": "Geri yükleme mevcut tüm verilerin üzerine yazacaktır. Devam etmek istiyor musunuz?",
+  "backupSuccess": "Yedekleme başarılı",
+  "restoreSuccess": "Geri yükleme başarılı",
+  "noBackups": "Henüz yedekleme yapılmamış",
+  "language": "Dil",
+  "turkish": "Türkçe",
+  "english": "English",
+  "theme": "Tema",
+  "lightTheme": "Açık Tema",
+  "darkTheme": "Koyu Tema",
+  "systemTheme": "Sistem Teması",
+  "about": "Hakkında",
+  "version": "Versiyon",
+  "privacyPolicy": "Gizlilik Politikası",
+  "termsOfUse": "Kullanım Koşulları",
+  "rateApp": "Uygulamayı Değerlendir",
+  "account": "Hesap",
+  "data": "Veri Yönetimi",
+  "appearance": "Görünüm",
+  "privacyPolicyTitle": "Gizlilik Politikası",
+  "privacyLastUpdated": "Son Güncelleme: 26 Şubat 2026",
+  "privacyContent": [
+    {
+      "title": "1. Giriş",
+      "body": "PsikoPlanner, terapistler için geliştirilmiş profesyonel bir pratik yönetim uygulamasıdır. Bu gizlilik politikası, uygulamanın topladığı, sakladığı ve işleme tabi tuttuğu veriler hakkında sizi bilgilendirmek amacıyla hazırlanmıştır.\n\nGeliştirici: PsikoPlanner\nİletişim: psikoplanner@gmail.com"
+    },
+    {
+      "title": "2. Toplanan Veriler",
+      "body": "Hesap Verileri: E-posta adresi (giriş ve kayıt için)\n\nDanışan Kişisel Verileri: Ad, soyad, telefon, e-posta, doğum tarihi, cinsiyet, TC kimlik numarası, uyruk, meslek, medeni durum, eğitim durumu, adres, acil durum iletişim bilgileri\n\nSağlık Verileri (Hassas): Kronik hastalık bilgileri, kullanılan ilaçlar, alerji bilgileri, tıbbi geçmiş\n\nPsikolojik Veriler (Hassas): Önceki tanı ve tedaviler, travma geçmişi, aile psikiyatrik öyküsü, terapi beklentileri\n\nSeans Verileri: Seans tarihleri, türleri, notları (SOAP formatı), değerlendirmeler\n\nFinansal Veriler: Seans ücretleri, ödeme durumu (kredi kartı/banka bilgisi toplanmaz)"
+    },
+    {
+      "title": "3. Verilerin Saklanması",
+      "body": "Danışan verileri (sağlık, psikolojik, seans, kişisel): Tamamen cihazınızda yerel olarak SQLite veritabanında saklanır. Bu veriler hiçbir sunucuya gönderilmez ve cihazınızdan çıkmaz.\n\nKimlik doğrulama verileri: E-posta ve oturum bilgileri Supabase üzerinden işlenir.\n\nHassas kimlik bilgileri: Cihazın güvenli deposunda (Secure Store) saklanır."
+    },
+    {
+      "title": "4. Veri Paylaşımı",
+      "body": "Danışan verilerinizi hiçbir üçüncü tarafla paylaşmayız. Uygulamada reklam SDK'sı, analitik aracı veya izleme teknolojisi bulunmaz. Sağlık ve terapi verileri cihazınızdan asla çıkmaz. Tek dış bağlantı: Kimlik doğrulama için Supabase (yalnızca e-posta/şifre)."
+    },
+    {
+      "title": "5. Kullanıcı Hakları (KVKK / GDPR)",
+      "body": "6698 sayılı KVKK ve GDPR kapsamında aşağıdaki haklara sahipsiniz:\n\n• Erişim hakkı: Verilerinize erişim talep edebilirsiniz.\n• Düzeltme hakkı: Yanlış verilerin düzeltilmesini isteyebilirsiniz.\n• Silme hakkı: Tüm verilerinizin silinmesini talep edebilirsiniz.\n• Taşınabilirlik hakkı: Verilerinizi yedekleme özelliğiyle taşıyabilirsiniz.\n• İtiraz hakkı: Veri işlemeye itiraz edebilirsiniz.\n• Rızayı geri çekme hakkı: Verdiğiniz izinleri istediğiniz zaman geri çekebilirsiniz.\n\nBu haklarınızı kullanmak için psikoplanner@gmail.com adresine başvurabilirsiniz."
+    },
+    {
+      "title": "6. Güvenlik Önlemleri",
+      "body": "• Yerel veri depolama (bulut senkronizasyonu yok)\n• Biyometrik kimlik doğrulama (parmak izi / yüz tanıma)\n• Otomatik kilitleme özelliği\n• Güvenli kimlik bilgisi depolama (Secure Store)\n• Tüm ağ iletişimlerinde HTTPS kullanımı"
+    },
+    {
+      "title": "7. İletişim",
+      "body": "Sorularınız için: psikoplanner@gmail.com"
+    }
+  ]
+}
